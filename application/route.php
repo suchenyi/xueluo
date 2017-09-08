@@ -29,6 +29,9 @@ return [
     '/admin/admin_post' => 'admin/post/index',
     '/admin/post_add' => 'admin/post/index',
     '/admin/post_lists' => 'admin/post/lists',
+    '/admin/tag_add'=>'admin/tag/index',
+    '/admin/tag_list'=>'admin/tag/tag_list',
+
 ];
 
 // return [
