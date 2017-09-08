@@ -7,7 +7,7 @@ class Tag extends Base{
 	}
 
     /**
-     *
+     * 列表
      */
 	public function tag_list(){
 
