@@ -4,8 +4,8 @@
                                 <i class="fa fa-dashboard"></i> <span>首页</span>
                             </a>
                         </li>
-                        <li class="treeview">
-                            <a href="/templates">
+                        <li class="treeview {$tree == 1 ? 'active':''}">
+                            <a href="#">
                                 <i class="fa fa-bar-chart-o"></i>
                                 <span>用户管理</span>
                                 <i class="fa fa-angle-left pull-right"></i>
@@ -30,19 +30,21 @@
                                 <li><a href="pages/UI/timeline.html"><i class="fa fa-angle-double-right"></i> Timeline</a></li>
                             </ul>
                         </li> -->
-                        <li class="treeview">
-                            <a href="/templates">
-                                <i class="fa fa-edit"></i> <span>文章管理</span>
+                        <!--<i class="fa fa-edit"></i>-->
+
+                        <li class="treeview {$tree == 2 ? 'active':''}">
+                            <a href="#">
+                                <i class="fa fa-edit"></i>文章管理 </span>
                                 <i class="fa fa-angle-left pull-right"></i>
                             </a>
                             <ul class="treeview-menu">
                                 <li><a href="/admin/post_add"><i class="fa fa-angle-double-right"></i> 文章添加 </a></li>
                                 <li><a href="/admin/post_lists"><i class="fa fa-angle-double-right"></i> 文章列表 </a></li>
-                                <!--<li><a href="pages/forms/editors.html"><i class="fa fa-angle-double-right"></i> Editors</a></li>-->
                             </ul>
                         </li>
-                        <li class="treeview">
-                            <a href="/templates">
+
+                        <li class="treeview {$tree == 3 ? 'active':''}">
+                            <a href="#">
                                 <i class="fa fa-table"></i> <span> 标签管理 </span>
                                 <i class="fa fa-angle-left pull-right"></i>
                             </a>
@@ -63,8 +65,8 @@
                                 <small class="badge pull-right bg-yellow">12</small>
                             </a>
                         </li> -->
-                        <li class="treeview">
-                            <a href="/templates">
+                        <li class="treeview {$tree == 9 ? 'active':''}">
+                            <a href="#">
                                 <i class="fa fa-folder"></i> <span>系统设置</span>
                                 <i class="fa fa-angle-left pull-right"></i>
                             </a>
