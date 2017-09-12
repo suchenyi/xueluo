@@ -19,33 +19,31 @@
                             <tbody><tr>
                                 <th>ID</th>
                                 <th>用户名</th>
-                                <th>手机号</th>
-                                <th>邮箱</th>
+                                <th>主图</th>
                                 <th>创建时间</th>
                                 <th>状态</th>
                                 <th>操作</th>
                             </tr>
 
-                            {volist name="list" id="user"}
+                            {volist name="list" id="v"}
                             <tr>
-                                <td>{$user.id}</td>
-                                <td>{$user.name}</td>
-                                <td>{$user.tel}</td>
-                                <td>{$user.email}</td>
-                                <td>{$user.create_time|date="Y-m-d H:i:s",###}</td>
-                                <td>{$user['status']? '<span class="label label-success">启用</span>' : '<span class="label label-danger">禁用</span>'}</td>
+                                <td>{$v.id}</td>
+                                <td>{$v.title}</td>
+                                <td><img src="{$v.img}" alt="" style="width: 50px;height: 50px;"></td>
+                                <td>{$v.create_time|date="Y-m-d H:i:s",###}</td>
+                                <td>{$v['status']? '<span class="label label-success">展示</span>' : '<span class="label label-danger">不展示</span>'}</td>
                                 <td>
-                                    <button class="btn btn-info btn-sm">查看</button>
-                                    {$user['status']==1?
+                                    <a class="btn btn-info btn-sm" href="/admin/post_add/{$v.id}">查看</a>
+                                    {$v['status']==1?
                                     '<button class="btn btn-warning btn-sm">禁用</button>':'<button class="btn btn-danger btn-sm">启用</button>'}
                                 </td>
                             </tr>
                             {/volist}
                             </tbody>
                         </table>
-                    </div><!-- /.box-body -->
+                    </div>
                     {$list->render()}
-                </div><!-- /.box -->
+                </div>
             </div>
         </div>
     </section>

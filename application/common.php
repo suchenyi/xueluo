@@ -10,3 +10,13 @@
 // +----------------------------------------------------------------------
 
 // 应用公共文件
+
+
+function get_path_name($pid){
+    if($pid==''){
+        return '顶级分类';
+    }else{
+        $sort= Db::name('sort')->where('pid','0')->order('id','asc')->find();
+        return $sort['name'];
+    }
+}

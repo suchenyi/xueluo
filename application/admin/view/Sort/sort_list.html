@@ -1,0 +1,61 @@
+
+{include file="Public/header" /}
+<section class="content">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="box">
+                <div class="box-header">
+                    <h3 class="box-title">分类列表</h3>
+                    <div class="box-tools">
+                        <div class="input-group">
+                            <input type="text" name="table_search" class="form-control input-sm pull-right" style="width: 150px;" placeholder="Search">
+                            <div class="input-group-btn">
+                                <button class="btn btn-sm btn-default"><i class="fa fa-search"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-body table-responsive no-padding">
+                    <table class="table table-hover">
+                        <tbody><tr>
+                            <th>ID</th>
+                            <th>标签名</th>
+                            <th>创建时间</th>
+                            <th>状态</th>
+                            <th>操作</th>
+                        </tr>
+                        <?php foreach ($list as $k => $vo): ?>
+                            <tr>
+                                <td>{$vo.id}</td>
+                                <td>{$vo.name}</td>
+                                <td>{$vo.create_time|date="Y-m-d H:i:s",###}</td>
+                                <td>{$vo['status']==1? '<span class="label label-success">启用</span>' : '<span class="label label-danger">禁用</span>'}</td>
+                                <td>
+                                    <a class="btn btn-success btn-sm">修改</a>
+                                    {$vo['status']==1 ? '<button class="btn btn-warning btn-sm">禁用</button>':'<button class="btn btn-danger btn-sm">启用</button>'}
+                                </td>
+                            </tr>
+
+                        <?php foreach ($vo['arr'] as $key => $v): ?>
+                        <tr>
+                            <td>{$v.id}</td>
+                            <td>&nbsp;&nbsp;&nbsp;&nbsp;|--- {$v.name}</td>
+                            <td>{$v.create_time|date="Y-m-d H:i:s",###}</td>
+                            <td>{$v['status']==1? '<span class="label label-success">启用</span>' : '<span class="label label-danger">禁用</span>'}</td>
+                            <td>
+                                <a class="btn btn-success btn-sm">修改</a>
+                                {$v['status']==1 ? '<button class="btn btn-warning btn-sm">禁用</button>':'<button class="btn btn-danger btn-sm">启用</button>'}
+
+                            </td>
+                        </tr>
+                        <?php endforeach;?>
+                        <?php endforeach;?>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{include file="Public/footer" /}

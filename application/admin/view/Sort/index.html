@@ -1,0 +1,92 @@
+{include file="Public/header" /}
+<div class="row">
+    <div class="col-md-6" style="width: 100%;">
+        <div class="box box-primary">
+            <div class="box-header">
+                <h3 class="box-title">标签添加</h3>
+            </div>
+            <!--<form role="form" action="/admin/tag_add" role="form" menctype="multipart/form-data" method="post">-->
+            <!--<form action="">-->
+            <div class="box-body">
+                <div class="form-group">
+                    <label >分类名</label>
+                    <input type="text" class="form-control" name="name" id="name" placeholder="请输入分类名...">
+                </div>
+            </div>
+            <div class="box-body">
+                <div class="form-group">
+                    <label >图标</label>
+                    <input type="text" class="form-control" name="fa_code" id="fa_code" placeholder="fa fa-globe blue">
+                </div>
+            </div>
+            <div class="box-body">
+                <div class="form-group">
+                    <label >上级分类</label>
+                    <select name="pid" id="select_id" class="form-control" id="">
+                        <option value="0">顶级分类</option>
+                {volist name="sort" id="vo"}
+                        <option value="{$vo.id}">{$vo.name}</option>
+                        {/volist}
+                    </select>
+                </div>
+            </div>
+            <div class="box-footer">
+                <button type="submit" id="submit" class="btn btn-primary">Submit</button>
+            </div>
+            <!--</form>-->
+        </div>
+    </div>
+</div>
+<script src="/static/js/jquery-1.8.0.min.js" type="text/javascript" charset="utf-8" ></script>
+
+<script>
+    //一般直接写在一个js文件中
+    //    layui.use(['layer', 'form'], function(){
+    //        var layer = layui.layer
+    //            ,form = layui.form;
+    //
+    //        layer.msg('Hello World');
+    //    });
+    $(function () {
+        $('#submit').click(function() {
+            $(this).html('正在操作...');
+            $(this).addClass('disabled');
+            var name= $('input[name=name]').val();
+            var fa_code = $('input[name=fa_code]').val();
+            var checkText=$("#select_id").find("option:selected").val();
+            if(name==''){
+                layui.use(['layer', 'form'], function(){
+                    var layer = layui.layer,form = layui.form;
+                    layer.msg('分类名称不能为空');
+                });
+                setTimeout(function(){window.location.href="/admin/tag_add";}, 3000);
+            }
+            $.ajax({
+                url:'/admin/sort_add_ajax',
+                type:'post',
+                data:{name:name,fa_code:fa_code,pid:checkText},
+                dataType:"json",
+                success:function(data){
+                    if(data.code == 1){
+                        layui.use(['layer', 'form'], function(){
+                            var layer = layui.layer,form = layui.form;
+                            layer.msg(data.msg);
+                        });
+                        setTimeout(function(){window.location.href="/admin/sort_list";}, 3000);
+                    }else{
+                        layui.use(['layer', 'form'], function(){
+                            var layer = layui.layer,form = layui.form;
+                            layer.msg(data.msg);
+                        });
+                        setTimeout(function(){window.location.href="/admin/sort_list";}, 3000);
+                    }
+                }
+            });
+            return false;
+        });
+    })
+    //    $(function(){
+    //
+    //    })
+</script>
+{include file="Public/footer" /}
