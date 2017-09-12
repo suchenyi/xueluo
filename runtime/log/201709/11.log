@@ -1,0 +1,1975 @@
+---------------------------------------------------------------
+[ 2017-09-11T18:14:42+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/sort_list
+[ info ] www.blog.com/admin/sort_list [运行时间：0.032416s][吞吐率：30.85req/s] [内存消耗：3,843.50kb] [文件加载：52]
+[ info ] [ LANG ] /www/xueluo/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'sort',
+    2 => 'sort_list',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/admin/sort_add',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'UM_distinctid=15e601d938313a-0795c015e9468f-31637e01-13c680-15e601d9384676; PHPSESSID=hsajpqtc4iv76m1i5m9bfns6r3; CNZZDATA1000014177=2008496609-1504846874-%7C1505118470',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\Controller\Sort->sort_list[ /www/xueluo/application/admin/controller/Sort.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/xueluo/Public/../application/admin/view/sort/sort_list.html [ array (
+  0 => 'admin_name',
+  1 => 'admin_uid',
+  2 => 'list',
+  3 => 'tree',
+  4 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000404s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_sort` [ RunTime:0.000695s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 0 ORDER BY `id`  asc [ RunTime:0.000449s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 2 ORDER BY `id`  desc [ RunTime:0.000437s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 3 ORDER BY `id`  desc [ RunTime:0.000492s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 5 ORDER BY `id`  desc [ RunTime:0.000334s ]
+[ error ] [8]未定义数组索引: arr[/www/xueluo/runtime/temp/a9a7a278f7f70e99edd484fc66be07bf.php:231]
+---------------------------------------------------------------
+[ 2017-09-11T18:16:39+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/sort_list
+[ info ] www.blog.com/admin/sort_list [运行时间：0.032803s][吞吐率：30.48req/s] [内存消耗：3,528.13kb] [文件加载：46]
+[ info ] [ LANG ] /www/xueluo/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'sort',
+    2 => 'sort_list',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/admin/sort_add',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'UM_distinctid=15e601d938313a-0795c015e9468f-31637e01-13c680-15e601d9384676; PHPSESSID=hsajpqtc4iv76m1i5m9bfns6r3; CNZZDATA1000014177=2008496609-1504846874-%7C1505118470',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\Controller\Sort->sort_list[ /www/xueluo/application/admin/controller/Sort.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/xueluo/Public/../application/admin/view/sort/sort_list.html [ array (
+  0 => 'admin_name',
+  1 => 'admin_uid',
+  2 => 'list',
+  3 => 'tree',
+  4 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000445s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_sort` [ RunTime:0.000640s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 0 ORDER BY `id`  asc [ RunTime:0.000371s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 2 ORDER BY `id`  desc [ RunTime:0.000423s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 3 ORDER BY `id`  desc [ RunTime:0.000672s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 5 ORDER BY `id`  desc [ RunTime:0.000486s ]
+---------------------------------------------------------------
+[ 2017-09-11T18:17:06+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/sort_list
+[ info ] www.blog.com/admin/sort_list [运行时间：0.028020s][吞吐率：35.69req/s] [内存消耗：3,765.57kb] [文件加载：48]
+[ info ] [ LANG ] /www/xueluo/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'sort',
+    2 => 'sort_list',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/admin/sort_add',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'UM_distinctid=15e601d938313a-0795c015e9468f-31637e01-13c680-15e601d9384676; PHPSESSID=hsajpqtc4iv76m1i5m9bfns6r3; CNZZDATA1000014177=2008496609-1504846874-%7C1505118470',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\Controller\Sort->sort_list[ /www/xueluo/application/admin/controller/Sort.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/xueluo/Public/../application/admin/view/sort/sort_list.html [ array (
+  0 => 'admin_name',
+  1 => 'admin_uid',
+  2 => 'list',
+  3 => 'tree',
+  4 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000453s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_sort` [ RunTime:0.000829s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 0 ORDER BY `id`  asc [ RunTime:0.000372s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 2 ORDER BY `id`  desc [ RunTime:0.000368s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 3 ORDER BY `id`  desc [ RunTime:0.000392s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 5 ORDER BY `id`  desc [ RunTime:0.000469s ]
+---------------------------------------------------------------
+[ 2017-09-11T18:17:20+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/sort_list
+[ info ] www.blog.com/admin/sort_list [运行时间：0.033440s][吞吐率：29.90req/s] [内存消耗：3,765.66kb] [文件加载：48]
+[ info ] [ LANG ] /www/xueluo/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'sort',
+    2 => 'sort_list',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/admin/sort_add',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'UM_distinctid=15e601d938313a-0795c015e9468f-31637e01-13c680-15e601d9384676; PHPSESSID=hsajpqtc4iv76m1i5m9bfns6r3; CNZZDATA1000014177=2008496609-1504846874-%7C1505118470',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\Controller\Sort->sort_list[ /www/xueluo/application/admin/controller/Sort.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/xueluo/Public/../application/admin/view/sort/sort_list.html [ array (
+  0 => 'admin_name',
+  1 => 'admin_uid',
+  2 => 'list',
+  3 => 'tree',
+  4 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002560s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_sort` [ RunTime:0.000746s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 0 ORDER BY `id`  asc [ RunTime:0.000425s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 2 ORDER BY `id`  desc [ RunTime:0.000386s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 3 ORDER BY `id`  desc [ RunTime:0.000381s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 5 ORDER BY `id`  desc [ RunTime:0.000440s ]
+---------------------------------------------------------------
+[ 2017-09-11T18:17:23+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/sort_list
+[ info ] www.blog.com/admin/sort_list [运行时间：0.027333s][吞吐率：36.59req/s] [内存消耗：3,765.82kb] [文件加载：48]
+[ info ] [ LANG ] /www/xueluo/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'sort',
+    2 => 'sort_list',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/admin/sort_add',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'UM_distinctid=15e601d938313a-0795c015e9468f-31637e01-13c680-15e601d9384676; PHPSESSID=hsajpqtc4iv76m1i5m9bfns6r3; CNZZDATA1000014177=2008496609-1504846874-%7C1505118470',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\Controller\Sort->sort_list[ /www/xueluo/application/admin/controller/Sort.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/xueluo/Public/../application/admin/view/sort/sort_list.html [ array (
+  0 => 'admin_name',
+  1 => 'admin_uid',
+  2 => 'list',
+  3 => 'tree',
+  4 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000787s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_sort` [ RunTime:0.000966s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 0 ORDER BY `id`  asc [ RunTime:0.000719s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 2 ORDER BY `id`  desc [ RunTime:0.000312s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 3 ORDER BY `id`  desc [ RunTime:0.000377s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 5 ORDER BY `id`  desc [ RunTime:0.000374s ]
+---------------------------------------------------------------
+[ 2017-09-11T18:18:38+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/sort_list
+[ info ] www.blog.com/admin/sort_list [运行时间：0.028798s][吞吐率：34.72req/s] [内存消耗：3,781.50kb] [文件加载：48]
+[ info ] [ LANG ] /www/xueluo/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'sort',
+    2 => 'sort_list',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/admin/sort_add',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'UM_distinctid=15e601d938313a-0795c015e9468f-31637e01-13c680-15e601d9384676; PHPSESSID=hsajpqtc4iv76m1i5m9bfns6r3; CNZZDATA1000014177=2008496609-1504846874-%7C1505118470',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\Controller\Sort->sort_list[ /www/xueluo/application/admin/controller/Sort.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/xueluo/Public/../application/admin/view/sort/sort_list.html [ array (
+  0 => 'admin_name',
+  1 => 'admin_uid',
+  2 => 'list',
+  3 => 'tree',
+  4 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000884s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_sort` [ RunTime:0.000877s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 0 ORDER BY `id`  asc [ RunTime:0.000378s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 2 ORDER BY `id`  desc [ RunTime:0.000343s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 3 ORDER BY `id`  desc [ RunTime:0.000358s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 5 ORDER BY `id`  desc [ RunTime:0.000340s ]
+---------------------------------------------------------------
+[ 2017-09-11T18:20:43+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/sort_list
+[ info ] www.blog.com/admin/sort_list [运行时间：0.026700s][吞吐率：37.45req/s] [内存消耗：3,547.32kb] [文件加载：46]
+[ info ] [ LANG ] /www/xueluo/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'sort',
+    2 => 'sort_list',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/admin/sort_add',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'UM_distinctid=15e601d938313a-0795c015e9468f-31637e01-13c680-15e601d9384676; PHPSESSID=hsajpqtc4iv76m1i5m9bfns6r3; CNZZDATA1000014177=2008496609-1504846874-%7C1505118470',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\Controller\Sort->sort_list[ /www/xueluo/application/admin/controller/Sort.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/xueluo/Public/../application/admin/view/sort/sort_list.html [ array (
+  0 => 'admin_name',
+  1 => 'admin_uid',
+  2 => 'list',
+  3 => 'tree',
+  4 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000408s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_sort` [ RunTime:0.000600s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 0 ORDER BY `id`  asc [ RunTime:0.000454s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 2 ORDER BY `id`  desc [ RunTime:0.000352s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 3 ORDER BY `id`  desc [ RunTime:0.000282s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 5 ORDER BY `id`  desc [ RunTime:0.000349s ]
+---------------------------------------------------------------
+[ 2017-09-11T18:26:04+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/sort_list
+[ info ] www.blog.com/admin/sort_list [运行时间：0.031113s][吞吐率：32.14req/s] [内存消耗：3,770.68kb] [文件加载：48]
+[ info ] [ LANG ] /www/xueluo/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'sort',
+    2 => 'sort_list',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/admin/sort_add',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'UM_distinctid=15e601d938313a-0795c015e9468f-31637e01-13c680-15e601d9384676; PHPSESSID=hsajpqtc4iv76m1i5m9bfns6r3; CNZZDATA1000014177=2008496609-1504846874-%7C1505118470',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\Controller\Sort->sort_list[ /www/xueluo/application/admin/controller/Sort.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/xueluo/Public/../application/admin/view/sort/sort_list.html [ array (
+  0 => 'admin_name',
+  1 => 'admin_uid',
+  2 => 'list',
+  3 => 'tree',
+  4 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000549s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_sort` [ RunTime:0.000825s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 0 ORDER BY `id`  asc [ RunTime:0.000469s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 2 ORDER BY `id`  desc [ RunTime:0.000383s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 3 ORDER BY `id`  desc [ RunTime:0.000301s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 5 ORDER BY `id`  desc [ RunTime:0.000341s ]
+---------------------------------------------------------------
+[ 2017-09-11T18:26:15+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/sort_list
+[ info ] www.blog.com/admin/sort_list [运行时间：0.030542s][吞吐率：32.74req/s] [内存消耗：3,770.76kb] [文件加载：48]
+[ info ] [ LANG ] /www/xueluo/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'sort',
+    2 => 'sort_list',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/admin/sort_add',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'UM_distinctid=15e601d938313a-0795c015e9468f-31637e01-13c680-15e601d9384676; PHPSESSID=hsajpqtc4iv76m1i5m9bfns6r3; CNZZDATA1000014177=2008496609-1504846874-%7C1505118470',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\Controller\Sort->sort_list[ /www/xueluo/application/admin/controller/Sort.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/xueluo/Public/../application/admin/view/sort/sort_list.html [ array (
+  0 => 'admin_name',
+  1 => 'admin_uid',
+  2 => 'list',
+  3 => 'tree',
+  4 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000512s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_sort` [ RunTime:0.000620s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 0 ORDER BY `id`  asc [ RunTime:0.000353s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 2 ORDER BY `id`  desc [ RunTime:0.000303s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 3 ORDER BY `id`  desc [ RunTime:0.000278s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 5 ORDER BY `id`  desc [ RunTime:0.000260s ]
+---------------------------------------------------------------
+[ 2017-09-11T18:26:36+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/sort_list
+[ info ] www.blog.com/admin/sort_list [运行时间：0.034365s][吞吐率：29.10req/s] [内存消耗：3,771.07kb] [文件加载：48]
+[ info ] [ LANG ] /www/xueluo/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'sort',
+    2 => 'sort_list',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/admin/sort_add',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'UM_distinctid=15e601d938313a-0795c015e9468f-31637e01-13c680-15e601d9384676; PHPSESSID=hsajpqtc4iv76m1i5m9bfns6r3; CNZZDATA1000014177=2008496609-1504846874-%7C1505118470',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\Controller\Sort->sort_list[ /www/xueluo/application/admin/controller/Sort.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/xueluo/Public/../application/admin/view/sort/sort_list.html [ array (
+  0 => 'admin_name',
+  1 => 'admin_uid',
+  2 => 'list',
+  3 => 'tree',
+  4 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000478s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_sort` [ RunTime:0.000706s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 0 ORDER BY `id`  asc [ RunTime:0.000348s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 2 ORDER BY `id`  desc [ RunTime:0.000379s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 3 ORDER BY `id`  desc [ RunTime:0.000295s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 5 ORDER BY `id`  desc [ RunTime:0.000334s ]
+---------------------------------------------------------------
+[ 2017-09-11T18:26:47+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/sort_list
+[ info ] www.blog.com/admin/sort_list [运行时间：0.028152s][吞吐率：35.52req/s] [内存消耗：3,771.35kb] [文件加载：48]
+[ info ] [ LANG ] /www/xueluo/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'sort',
+    2 => 'sort_list',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/admin/sort_add',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'UM_distinctid=15e601d938313a-0795c015e9468f-31637e01-13c680-15e601d9384676; PHPSESSID=hsajpqtc4iv76m1i5m9bfns6r3; CNZZDATA1000014177=2008496609-1504846874-%7C1505118470',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\Controller\Sort->sort_list[ /www/xueluo/application/admin/controller/Sort.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/xueluo/Public/../application/admin/view/sort/sort_list.html [ array (
+  0 => 'admin_name',
+  1 => 'admin_uid',
+  2 => 'list',
+  3 => 'tree',
+  4 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000437s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_sort` [ RunTime:0.000650s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 0 ORDER BY `id`  asc [ RunTime:0.000455s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 2 ORDER BY `id`  desc [ RunTime:0.000408s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 3 ORDER BY `id`  desc [ RunTime:0.000379s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 5 ORDER BY `id`  desc [ RunTime:0.000328s ]
+---------------------------------------------------------------
+[ 2017-09-11T18:27:18+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/sort_list
+[ info ] www.blog.com/admin/sort_list [运行时间：0.028638s][吞吐率：34.92req/s] [内存消耗：3,771.35kb] [文件加载：48]
+[ info ] [ LANG ] /www/xueluo/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'sort',
+    2 => 'sort_list',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/admin/sort_add',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'UM_distinctid=15e601d938313a-0795c015e9468f-31637e01-13c680-15e601d9384676; PHPSESSID=hsajpqtc4iv76m1i5m9bfns6r3; CNZZDATA1000014177=2008496609-1504846874-%7C1505118470',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\Controller\Sort->sort_list[ /www/xueluo/application/admin/controller/Sort.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/xueluo/Public/../application/admin/view/sort/sort_list.html [ array (
+  0 => 'admin_name',
+  1 => 'admin_uid',
+  2 => 'list',
+  3 => 'tree',
+  4 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000447s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_sort` [ RunTime:0.001099s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 0 ORDER BY `id`  asc [ RunTime:0.000422s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 2 ORDER BY `id`  desc [ RunTime:0.000391s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 3 ORDER BY `id`  desc [ RunTime:0.000322s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 5 ORDER BY `id`  desc [ RunTime:0.000286s ]
+---------------------------------------------------------------
+[ 2017-09-11T18:27:42+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/sort_list
+[ info ] www.blog.com/admin/sort_list [运行时间：0.025663s][吞吐率：38.97req/s] [内存消耗：3,771.83kb] [文件加载：48]
+[ info ] [ LANG ] /www/xueluo/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'sort',
+    2 => 'sort_list',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/admin/sort_add',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'UM_distinctid=15e601d938313a-0795c015e9468f-31637e01-13c680-15e601d9384676; PHPSESSID=hsajpqtc4iv76m1i5m9bfns6r3; CNZZDATA1000014177=2008496609-1504846874-%7C1505118470',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\Controller\Sort->sort_list[ /www/xueluo/application/admin/controller/Sort.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/xueluo/Public/../application/admin/view/sort/sort_list.html [ array (
+  0 => 'admin_name',
+  1 => 'admin_uid',
+  2 => 'list',
+  3 => 'tree',
+  4 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000396s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_sort` [ RunTime:0.000740s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 0 ORDER BY `id`  asc [ RunTime:0.000429s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 2 ORDER BY `id`  desc [ RunTime:0.000386s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 3 ORDER BY `id`  desc [ RunTime:0.000355s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 5 ORDER BY `id`  desc [ RunTime:0.000408s ]
+---------------------------------------------------------------
+[ 2017-09-11T18:28:05+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/sort_list
+[ info ] www.blog.com/admin/sort_list [运行时间：0.026946s][吞吐率：37.11req/s] [内存消耗：3,788.09kb] [文件加载：48]
+[ info ] [ LANG ] /www/xueluo/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'sort',
+    2 => 'sort_list',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/admin/sort_add',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'UM_distinctid=15e601d938313a-0795c015e9468f-31637e01-13c680-15e601d9384676; PHPSESSID=hsajpqtc4iv76m1i5m9bfns6r3; CNZZDATA1000014177=2008496609-1504846874-%7C1505118470',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\Controller\Sort->sort_list[ /www/xueluo/application/admin/controller/Sort.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/xueluo/Public/../application/admin/view/sort/sort_list.html [ array (
+  0 => 'admin_name',
+  1 => 'admin_uid',
+  2 => 'list',
+  3 => 'tree',
+  4 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000422s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_sort` [ RunTime:0.000659s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 0 ORDER BY `id`  asc [ RunTime:0.000436s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 2 ORDER BY `id`  desc [ RunTime:0.000388s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 3 ORDER BY `id`  desc [ RunTime:0.000361s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 5 ORDER BY `id`  desc [ RunTime:0.000397s ]
+---------------------------------------------------------------
+[ 2017-09-11T18:28:20+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/sort_list
+[ info ] www.blog.com/admin/sort_list [运行时间：0.025778s][吞吐率：38.79req/s] [内存消耗：3,788.08kb] [文件加载：48]
+[ info ] [ LANG ] /www/xueluo/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'sort',
+    2 => 'sort_list',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/admin/sort_add',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'UM_distinctid=15e601d938313a-0795c015e9468f-31637e01-13c680-15e601d9384676; PHPSESSID=hsajpqtc4iv76m1i5m9bfns6r3; CNZZDATA1000014177=2008496609-1504846874-%7C1505118470',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\Controller\Sort->sort_list[ /www/xueluo/application/admin/controller/Sort.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/xueluo/Public/../application/admin/view/sort/sort_list.html [ array (
+  0 => 'admin_name',
+  1 => 'admin_uid',
+  2 => 'list',
+  3 => 'tree',
+  4 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000470s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_sort` [ RunTime:0.000669s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 0 ORDER BY `id`  asc [ RunTime:0.000416s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 2 ORDER BY `id`  desc [ RunTime:0.000402s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 3 ORDER BY `id`  desc [ RunTime:0.000325s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 5 ORDER BY `id`  desc [ RunTime:0.000336s ]
+---------------------------------------------------------------
+[ 2017-09-11T18:28:36+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/sort_list
+[ info ] www.blog.com/admin/sort_list [运行时间：0.031474s][吞吐率：31.77req/s] [内存消耗：3,788.14kb] [文件加载：48]
+[ info ] [ LANG ] /www/xueluo/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'sort',
+    2 => 'sort_list',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/admin/sort_add',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'UM_distinctid=15e601d938313a-0795c015e9468f-31637e01-13c680-15e601d9384676; PHPSESSID=hsajpqtc4iv76m1i5m9bfns6r3; CNZZDATA1000014177=2008496609-1504846874-%7C1505118470',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\Controller\Sort->sort_list[ /www/xueluo/application/admin/controller/Sort.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/xueluo/Public/../application/admin/view/sort/sort_list.html [ array (
+  0 => 'admin_name',
+  1 => 'admin_uid',
+  2 => 'list',
+  3 => 'tree',
+  4 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000485s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_sort` [ RunTime:0.000665s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 0 ORDER BY `id`  asc [ RunTime:0.000382s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 2 ORDER BY `id`  desc [ RunTime:0.000342s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 3 ORDER BY `id`  desc [ RunTime:0.000379s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 5 ORDER BY `id`  desc [ RunTime:0.000373s ]
+---------------------------------------------------------------
+[ 2017-09-11T18:28:48+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/sort_list
+[ info ] www.blog.com/admin/sort_list [运行时间：0.030651s][吞吐率：32.63req/s] [内存消耗：3,787.98kb] [文件加载：48]
+[ info ] [ LANG ] /www/xueluo/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'sort',
+    2 => 'sort_list',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/admin/sort_add',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'UM_distinctid=15e601d938313a-0795c015e9468f-31637e01-13c680-15e601d9384676; PHPSESSID=hsajpqtc4iv76m1i5m9bfns6r3; CNZZDATA1000014177=2008496609-1504846874-%7C1505118470',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\Controller\Sort->sort_list[ /www/xueluo/application/admin/controller/Sort.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/xueluo/Public/../application/admin/view/sort/sort_list.html [ array (
+  0 => 'admin_name',
+  1 => 'admin_uid',
+  2 => 'list',
+  3 => 'tree',
+  4 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000427s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_sort` [ RunTime:0.000698s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 0 ORDER BY `id`  asc [ RunTime:0.000396s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 2 ORDER BY `id`  desc [ RunTime:0.000382s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 3 ORDER BY `id`  desc [ RunTime:0.000321s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 5 ORDER BY `id`  desc [ RunTime:0.000429s ]
+---------------------------------------------------------------
+[ 2017-09-11T18:29:25+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/sort_list
+[ info ] www.blog.com/admin/sort_list [运行时间：0.033047s][吞吐率：30.26req/s] [内存消耗：3,787.93kb] [文件加载：48]
+[ info ] [ LANG ] /www/xueluo/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'sort',
+    2 => 'sort_list',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/admin/sort_add',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'UM_distinctid=15e601d938313a-0795c015e9468f-31637e01-13c680-15e601d9384676; PHPSESSID=hsajpqtc4iv76m1i5m9bfns6r3; CNZZDATA1000014177=2008496609-1504846874-%7C1505118470',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\Controller\Sort->sort_list[ /www/xueluo/application/admin/controller/Sort.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/xueluo/Public/../application/admin/view/sort/sort_list.html [ array (
+  0 => 'admin_name',
+  1 => 'admin_uid',
+  2 => 'list',
+  3 => 'tree',
+  4 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000401s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_sort` [ RunTime:0.000767s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 0 ORDER BY `id`  asc [ RunTime:0.000385s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 2 ORDER BY `id`  desc [ RunTime:0.000667s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 3 ORDER BY `id`  desc [ RunTime:0.000624s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 5 ORDER BY `id`  desc [ RunTime:0.000649s ]
+---------------------------------------------------------------
+[ 2017-09-11T18:29:34+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/sort_list
+[ info ] www.blog.com/admin/sort_list [运行时间：0.025774s][吞吐率：38.80req/s] [内存消耗：3,788.03kb] [文件加载：48]
+[ info ] [ LANG ] /www/xueluo/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'sort',
+    2 => 'sort_list',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/admin/sort_add',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'UM_distinctid=15e601d938313a-0795c015e9468f-31637e01-13c680-15e601d9384676; PHPSESSID=hsajpqtc4iv76m1i5m9bfns6r3; CNZZDATA1000014177=2008496609-1504846874-%7C1505118470',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\Controller\Sort->sort_list[ /www/xueluo/application/admin/controller/Sort.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/xueluo/Public/../application/admin/view/sort/sort_list.html [ array (
+  0 => 'admin_name',
+  1 => 'admin_uid',
+  2 => 'list',
+  3 => 'tree',
+  4 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000479s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_sort` [ RunTime:0.000727s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 0 ORDER BY `id`  asc [ RunTime:0.000378s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 2 ORDER BY `id`  desc [ RunTime:0.000346s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 3 ORDER BY `id`  desc [ RunTime:0.000291s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 5 ORDER BY `id`  desc [ RunTime:0.000373s ]
+---------------------------------------------------------------
+[ 2017-09-11T18:29:44+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/sort_list
+[ info ] www.blog.com/admin/sort_list [运行时间：0.031028s][吞吐率：32.23req/s] [内存消耗：3,787.94kb] [文件加载：48]
+[ info ] [ LANG ] /www/xueluo/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'sort',
+    2 => 'sort_list',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/admin/sort_add',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'UM_distinctid=15e601d938313a-0795c015e9468f-31637e01-13c680-15e601d9384676; PHPSESSID=hsajpqtc4iv76m1i5m9bfns6r3; CNZZDATA1000014177=2008496609-1504846874-%7C1505118470',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\Controller\Sort->sort_list[ /www/xueluo/application/admin/controller/Sort.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/xueluo/Public/../application/admin/view/sort/sort_list.html [ array (
+  0 => 'admin_name',
+  1 => 'admin_uid',
+  2 => 'list',
+  3 => 'tree',
+  4 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000396s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_sort` [ RunTime:0.000775s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 0 ORDER BY `id`  asc [ RunTime:0.000575s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 2 ORDER BY `id`  desc [ RunTime:0.000501s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 3 ORDER BY `id`  desc [ RunTime:0.000606s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 5 ORDER BY `id`  desc [ RunTime:0.000294s ]
+---------------------------------------------------------------
+[ 2017-09-11T18:30:03+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/sort_list
+[ info ] www.blog.com/admin/sort_list [运行时间：0.025941s][吞吐率：38.55req/s] [内存消耗：3,787.88kb] [文件加载：48]
+[ info ] [ LANG ] /www/xueluo/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'sort',
+    2 => 'sort_list',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/admin/sort_add',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'UM_distinctid=15e601d938313a-0795c015e9468f-31637e01-13c680-15e601d9384676; PHPSESSID=hsajpqtc4iv76m1i5m9bfns6r3; CNZZDATA1000014177=2008496609-1504846874-%7C1505118470',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\Controller\Sort->sort_list[ /www/xueluo/application/admin/controller/Sort.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/xueluo/Public/../application/admin/view/sort/sort_list.html [ array (
+  0 => 'admin_name',
+  1 => 'admin_uid',
+  2 => 'list',
+  3 => 'tree',
+  4 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000462s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_sort` [ RunTime:0.000806s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 0 ORDER BY `id`  asc [ RunTime:0.000475s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 2 ORDER BY `id`  desc [ RunTime:0.000377s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 3 ORDER BY `id`  desc [ RunTime:0.000379s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 5 ORDER BY `id`  desc [ RunTime:0.000373s ]
+---------------------------------------------------------------
+[ 2017-09-11T18:30:23+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/sort_add
+[ info ] www.blog.com/admin/sort_add [运行时间：0.024690s][吞吐率：40.50req/s] [内存消耗：3,765.52kb] [文件加载：48]
+[ info ] [ LANG ] /www/xueluo/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'sort',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/admin/sort_list',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'UM_distinctid=15e601d938313a-0795c015e9468f-31637e01-13c680-15e601d9384676; PHPSESSID=hsajpqtc4iv76m1i5m9bfns6r3; CNZZDATA1000014177=2008496609-1504846874-%7C1505118470',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\Controller\Sort->index[ /www/xueluo/application/admin/controller/Sort.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/xueluo/Public/../application/admin/view/sort/index.html [ array (
+  0 => 'admin_name',
+  1 => 'admin_uid',
+  2 => 'sort',
+  3 => 'tree',
+  4 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000376s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_sort` [ RunTime:0.000561s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 0 [ RunTime:0.000338s ]
+---------------------------------------------------------------
+[ 2017-09-11T18:30:24+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/sort_list
+[ info ] www.blog.com/admin/sort_list [运行时间：0.027428s][吞吐率：36.46req/s] [内存消耗：3,550.38kb] [文件加载：46]
+[ info ] [ LANG ] /www/xueluo/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'sort',
+    2 => 'sort_list',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/admin/sort_add',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'UM_distinctid=15e601d938313a-0795c015e9468f-31637e01-13c680-15e601d9384676; PHPSESSID=hsajpqtc4iv76m1i5m9bfns6r3; CNZZDATA1000014177=2008496609-1504846874-%7C1505118470',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\Controller\Sort->sort_list[ /www/xueluo/application/admin/controller/Sort.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/xueluo/Public/../application/admin/view/sort/sort_list.html [ array (
+  0 => 'admin_name',
+  1 => 'admin_uid',
+  2 => 'list',
+  3 => 'tree',
+  4 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000474s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_sort` [ RunTime:0.000559s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 0 ORDER BY `id`  asc [ RunTime:0.000357s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 2 ORDER BY `id`  desc [ RunTime:0.000339s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 3 ORDER BY `id`  desc [ RunTime:0.000554s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 5 ORDER BY `id`  desc [ RunTime:0.000354s ]
+---------------------------------------------------------------
+[ 2017-09-11T18:30:25+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/sort_add
+[ info ] www.blog.com/admin/sort_add [运行时间：0.026575s][吞吐率：37.63req/s] [内存消耗：3,528.11kb] [文件加载：46]
+[ info ] [ LANG ] /www/xueluo/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'sort',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/admin/sort_list',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'UM_distinctid=15e601d938313a-0795c015e9468f-31637e01-13c680-15e601d9384676; PHPSESSID=hsajpqtc4iv76m1i5m9bfns6r3; CNZZDATA1000014177=2008496609-1504846874-%7C1505118470',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\Controller\Sort->index[ /www/xueluo/application/admin/controller/Sort.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/xueluo/Public/../application/admin/view/sort/index.html [ array (
+  0 => 'admin_name',
+  1 => 'admin_uid',
+  2 => 'sort',
+  3 => 'tree',
+  4 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000715s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_sort` [ RunTime:0.000720s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 0 [ RunTime:0.000355s ]
+---------------------------------------------------------------
+[ 2017-09-11T18:30:26+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/sort_list
+[ info ] www.blog.com/admin/sort_list [运行时间：0.025473s][吞吐率：39.26req/s] [内存消耗：3,550.38kb] [文件加载：46]
+[ info ] [ LANG ] /www/xueluo/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'sort',
+    2 => 'sort_list',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/admin/sort_add',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'UM_distinctid=15e601d938313a-0795c015e9468f-31637e01-13c680-15e601d9384676; PHPSESSID=hsajpqtc4iv76m1i5m9bfns6r3; CNZZDATA1000014177=2008496609-1504846874-%7C1505118470',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\Controller\Sort->sort_list[ /www/xueluo/application/admin/controller/Sort.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/xueluo/Public/../application/admin/view/sort/sort_list.html [ array (
+  0 => 'admin_name',
+  1 => 'admin_uid',
+  2 => 'list',
+  3 => 'tree',
+  4 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000423s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_sort` [ RunTime:0.000621s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 0 ORDER BY `id`  asc [ RunTime:0.000472s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 2 ORDER BY `id`  desc [ RunTime:0.000323s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 3 ORDER BY `id`  desc [ RunTime:0.000325s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 5 ORDER BY `id`  desc [ RunTime:0.000302s ]
+---------------------------------------------------------------
+[ 2017-09-11T18:30:28+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/sort_add
+[ info ] www.blog.com/admin/sort_add [运行时间：0.025779s][吞吐率：38.79req/s] [内存消耗：3,528.11kb] [文件加载：46]
+[ info ] [ LANG ] /www/xueluo/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'sort',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/admin/sort_list',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'UM_distinctid=15e601d938313a-0795c015e9468f-31637e01-13c680-15e601d9384676; PHPSESSID=hsajpqtc4iv76m1i5m9bfns6r3; CNZZDATA1000014177=2008496609-1504846874-%7C1505118470',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\Controller\Sort->index[ /www/xueluo/application/admin/controller/Sort.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/xueluo/Public/../application/admin/view/sort/index.html [ array (
+  0 => 'admin_name',
+  1 => 'admin_uid',
+  2 => 'sort',
+  3 => 'tree',
+  4 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000417s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_sort` [ RunTime:0.000640s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 0 [ RunTime:0.000362s ]
+---------------------------------------------------------------
+[ 2017-09-11T18:30:34+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/sort_add_ajax
+[ info ] www.blog.com/admin/sort_add_ajax [运行时间：0.023062s][吞吐率：43.36req/s] [内存消耗：3,528.32kb] [文件加载：46]
+[ info ] [ LANG ] /www/xueluo/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'sort',
+    2 => 'sort_add_ajax',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'content-length' => '26',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.blog.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.blog.com/admin/sort_add',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'UM_distinctid=15e601d938313a-0795c015e9468f-31637e01-13c680-15e601d9384676; PHPSESSID=hsajpqtc4iv76m1i5m9bfns6r3; CNZZDATA1000014177=2008496609-1504846874-%7C1505118470',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'jQuery',
+  'fa_code' => '',
+  'pid' => '3',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\Controller\Sort->sort_add_ajax[ /www/xueluo/application/admin/controller/Sort.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000428s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_sort` [ RunTime:0.000625s ]
+[ sql ] [ SQL ] INSERT INTO `tp_sort` (`name` , `pid` , `fa_code` , `status` , `create_time`) VALUES ('jQuery' , 3 , '' , 1 , 1505125834) [ RunTime:0.000489s ]
+---------------------------------------------------------------
+[ 2017-09-11T18:30:37+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/sort_list
+[ info ] www.blog.com/admin/sort_list [运行时间：0.028793s][吞吐率：34.73req/s] [内存消耗：3,551.48kb] [文件加载：46]
+[ info ] [ LANG ] /www/xueluo/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'sort',
+    2 => 'sort_list',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/admin/sort_add',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'UM_distinctid=15e601d938313a-0795c015e9468f-31637e01-13c680-15e601d9384676; PHPSESSID=hsajpqtc4iv76m1i5m9bfns6r3; CNZZDATA1000014177=2008496609-1504846874-%7C1505118470',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\Controller\Sort->sort_list[ /www/xueluo/application/admin/controller/Sort.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/xueluo/Public/../application/admin/view/sort/sort_list.html [ array (
+  0 => 'admin_name',
+  1 => 'admin_uid',
+  2 => 'list',
+  3 => 'tree',
+  4 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000440s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_sort` [ RunTime:0.000605s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 0 ORDER BY `id`  asc [ RunTime:0.000338s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 2 ORDER BY `id`  desc [ RunTime:0.000381s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 3 ORDER BY `id`  desc [ RunTime:0.000314s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 5 ORDER BY `id`  desc [ RunTime:0.000291s ]
+---------------------------------------------------------------
+[ 2017-09-11T18:30:57+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/sort_list
+[ info ] www.blog.com/admin/sort_list [运行时间：0.027000s][吞吐率：37.04req/s] [内存消耗：3,551.28kb] [文件加载：46]
+[ info ] [ LANG ] /www/xueluo/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'sort',
+    2 => 'sort_list',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/admin/sort_add',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'UM_distinctid=15e601d938313a-0795c015e9468f-31637e01-13c680-15e601d9384676; PHPSESSID=hsajpqtc4iv76m1i5m9bfns6r3; CNZZDATA1000014177=2008496609-1504846874-%7C1505118470',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\Controller\Sort->sort_list[ /www/xueluo/application/admin/controller/Sort.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/xueluo/Public/../application/admin/view/sort/sort_list.html [ array (
+  0 => 'admin_name',
+  1 => 'admin_uid',
+  2 => 'list',
+  3 => 'tree',
+  4 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000724s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_sort` [ RunTime:0.000999s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 0 ORDER BY `id`  asc [ RunTime:0.000437s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 2 ORDER BY `id`  asc [ RunTime:0.000389s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 3 ORDER BY `id`  asc [ RunTime:0.000295s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 5 ORDER BY `id`  asc [ RunTime:0.000291s ]
+---------------------------------------------------------------
+[ 2017-09-11T18:31:49+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] www.blog.com/ [运行时间：0.015150s][吞吐率：66.01req/s] [内存消耗：2,615.66kb] [文件加载：40]
+[ info ] [ LANG ] /www/xueluo/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'UM_distinctid=15e601d938313a-0795c015e9468f-31637e01-13c680-15e601d9384676; PHPSESSID=hsajpqtc4iv76m1i5m9bfns6r3; CNZZDATA1000014177=2008496609-1504846874-%7C1505118470',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/xueluo/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/xueluo/Public/../application/index/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-11T18:31:49+08:00 ] 127.0.0.1 127.0.0.1 GET /home/js/jquery.min.map
+[ info ] www.blog.com/home/js/jquery.min.map [运行时间：0.014498s][吞吐率：68.98req/s] [内存消耗：1,943.12kb] [文件加载：33]
+[ info ] [ LANG ] /www/xueluo/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'js',
+    2 => 'jquery.min.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'UM_distinctid=15e601d938313a-0795c015e9468f-31637e01-13c680-15e601d9384676; PHPSESSID=hsajpqtc4iv76m1i5m9bfns6r3; CNZZDATA1000014177=2008496609-1504846874-%7C1505118470',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-11T18:32:18+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/sort_add
+[ info ] www.blog.com/admin/sort_add [运行时间：0.024462s][吞吐率：40.88req/s] [内存消耗：3,527.95kb] [文件加载：46]
+[ info ] [ LANG ] /www/xueluo/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'sort',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/admin/sort_list',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'UM_distinctid=15e601d938313a-0795c015e9468f-31637e01-13c680-15e601d9384676; PHPSESSID=hsajpqtc4iv76m1i5m9bfns6r3; CNZZDATA1000014177=2008496609-1504846874-%7C1505125910',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\Controller\Sort->index[ /www/xueluo/application/admin/controller/Sort.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/xueluo/Public/../application/admin/view/sort/index.html [ array (
+  0 => 'admin_name',
+  1 => 'admin_uid',
+  2 => 'sort',
+  3 => 'tree',
+  4 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000434s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_sort` [ RunTime:0.000630s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 0 [ RunTime:0.000449s ]
+---------------------------------------------------------------
+[ 2017-09-11T18:32:25+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/sort_add_ajax
+[ info ] www.blog.com/admin/sort_add_ajax [运行时间：0.030179s][吞吐率：33.14req/s] [内存消耗：3,528.94kb] [文件加载：46]
+[ info ] [ LANG ] /www/xueluo/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'sort',
+    2 => 'sort_add_ajax',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'content-length' => '70',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.blog.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.blog.com/admin/sort_add',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'UM_distinctid=15e601d938313a-0795c015e9468f-31637e01-13c680-15e601d9384676; PHPSESSID=hsajpqtc4iv76m1i5m9bfns6r3; CNZZDATA1000014177=2008496609-1504846874-%7C1505125910',
+)
+[ info ] [ PARAM ] array (
+  'name' => '留言板',
+  'fa_code' => 'fa fa-commenting purple',
+  'pid' => '0',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\Controller\Sort->sort_add_ajax[ /www/xueluo/application/admin/controller/Sort.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000420s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_sort` [ RunTime:0.001038s ]
+[ sql ] [ SQL ] INSERT INTO `tp_sort` (`name` , `pid` , `fa_code` , `status` , `create_time`) VALUES ('留言板' , 0 , 'fa fa-commenting purple' , 1 , 1505125945) [ RunTime:0.000428s ]
+---------------------------------------------------------------
+[ 2017-09-11T18:32:28+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/sort_list
+[ info ] www.blog.com/admin/sort_list [运行时间：0.031921s][吞吐率：31.33req/s] [内存消耗：3,554.24kb] [文件加载：46]
+[ info ] [ LANG ] /www/xueluo/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'sort',
+    2 => 'sort_list',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/admin/sort_add',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'UM_distinctid=15e601d938313a-0795c015e9468f-31637e01-13c680-15e601d9384676; PHPSESSID=hsajpqtc4iv76m1i5m9bfns6r3; CNZZDATA1000014177=2008496609-1504846874-%7C1505125910',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\Controller\Sort->sort_list[ /www/xueluo/application/admin/controller/Sort.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/xueluo/Public/../application/admin/view/sort/sort_list.html [ array (
+  0 => 'admin_name',
+  1 => 'admin_uid',
+  2 => 'list',
+  3 => 'tree',
+  4 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000484s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_sort` [ RunTime:0.000585s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 0 ORDER BY `id`  asc [ RunTime:0.000396s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 2 ORDER BY `id`  asc [ RunTime:0.000360s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 3 ORDER BY `id`  asc [ RunTime:0.000367s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 5 ORDER BY `id`  asc [ RunTime:0.000696s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 8 ORDER BY `id`  asc [ RunTime:0.000625s ]
+---------------------------------------------------------------
+[ 2017-09-11T18:32:32+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/sort_add
+[ info ] www.blog.com/admin/sort_add [运行时间：0.023814s][吞吐率：41.99req/s] [内存消耗：3,529.95kb] [文件加载：46]
+[ info ] [ LANG ] /www/xueluo/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'sort',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/admin/sort_list',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'UM_distinctid=15e601d938313a-0795c015e9468f-31637e01-13c680-15e601d9384676; PHPSESSID=hsajpqtc4iv76m1i5m9bfns6r3; CNZZDATA1000014177=2008496609-1504846874-%7C1505125910',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\Controller\Sort->index[ /www/xueluo/application/admin/controller/Sort.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/xueluo/Public/../application/admin/view/sort/index.html [ array (
+  0 => 'admin_name',
+  1 => 'admin_uid',
+  2 => 'sort',
+  3 => 'tree',
+  4 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000384s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_sort` [ RunTime:0.000835s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 0 [ RunTime:0.000367s ]
+---------------------------------------------------------------
+[ 2017-09-11T18:32:40+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/sort_add_ajax
+[ info ] www.blog.com/admin/sort_add_ajax [运行时间：0.023282s][吞吐率：42.95req/s] [内存消耗：3,528.54kb] [文件加载：46]
+[ info ] [ LANG ] /www/xueluo/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'sort',
+    2 => 'sort_add_ajax',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'content-length' => '47',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.blog.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.blog.com/admin/sort_add',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'UM_distinctid=15e601d938313a-0795c015e9468f-31637e01-13c680-15e601d9384676; PHPSESSID=hsajpqtc4iv76m1i5m9bfns6r3; CNZZDATA1000014177=2008496609-1504846874-%7C1505125910',
+)
+[ info ] [ PARAM ] array (
+  'name' => '互联网',
+  'fa_code' => '',
+  'pid' => '5',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\Controller\Sort->sort_add_ajax[ /www/xueluo/application/admin/controller/Sort.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000469s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_sort` [ RunTime:0.000689s ]
+[ sql ] [ SQL ] INSERT INTO `tp_sort` (`name` , `pid` , `fa_code` , `status` , `create_time`) VALUES ('互联网' , 5 , '' , 1 , 1505125960) [ RunTime:0.000384s ]
+---------------------------------------------------------------
+[ 2017-09-11T18:32:43+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/sort_list
+[ info ] www.blog.com/admin/sort_list [运行时间：0.025690s][吞吐率：38.93req/s] [内存消耗：3,555.66kb] [文件加载：46]
+[ info ] [ LANG ] /www/xueluo/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'sort',
+    2 => 'sort_list',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/admin/sort_add',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'UM_distinctid=15e601d938313a-0795c015e9468f-31637e01-13c680-15e601d9384676; PHPSESSID=hsajpqtc4iv76m1i5m9bfns6r3; CNZZDATA1000014177=2008496609-1504846874-%7C1505125910',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\Controller\Sort->sort_list[ /www/xueluo/application/admin/controller/Sort.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/xueluo/Public/../application/admin/view/sort/sort_list.html [ array (
+  0 => 'admin_name',
+  1 => 'admin_uid',
+  2 => 'list',
+  3 => 'tree',
+  4 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000415s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_sort` [ RunTime:0.000561s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 0 ORDER BY `id`  asc [ RunTime:0.000354s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 2 ORDER BY `id`  asc [ RunTime:0.000305s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 3 ORDER BY `id`  asc [ RunTime:0.000477s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 5 ORDER BY `id`  asc [ RunTime:0.000458s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 8 ORDER BY `id`  asc [ RunTime:0.000378s ]
+---------------------------------------------------------------
+[ 2017-09-11T18:33:55+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/sort_add
+[ info ] www.blog.com/admin/sort_add [运行时间：0.024990s][吞吐率：40.02req/s] [内存消耗：3,529.79kb] [文件加载：46]
+[ info ] [ LANG ] /www/xueluo/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'sort',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/admin/sort_list',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'UM_distinctid=15e601d938313a-0795c015e9468f-31637e01-13c680-15e601d9384676; PHPSESSID=hsajpqtc4iv76m1i5m9bfns6r3; CNZZDATA1000014177=2008496609-1504846874-%7C1505125910',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\Controller\Sort->index[ /www/xueluo/application/admin/controller/Sort.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/xueluo/Public/../application/admin/view/sort/index.html [ array (
+  0 => 'admin_name',
+  1 => 'admin_uid',
+  2 => 'sort',
+  3 => 'tree',
+  4 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000381s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_sort` [ RunTime:0.001220s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 0 [ RunTime:0.000780s ]
+---------------------------------------------------------------
+[ 2017-09-11T18:33:56+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/sort_list
+[ info ] www.blog.com/admin/sort_list [运行时间：0.027672s][吞吐率：36.14req/s] [内存消耗：3,555.66kb] [文件加载：46]
+[ info ] [ LANG ] /www/xueluo/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'sort',
+    2 => 'sort_list',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/admin/sort_add',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'UM_distinctid=15e601d938313a-0795c015e9468f-31637e01-13c680-15e601d9384676; PHPSESSID=hsajpqtc4iv76m1i5m9bfns6r3; CNZZDATA1000014177=2008496609-1504846874-%7C1505125910',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\Controller\Sort->sort_list[ /www/xueluo/application/admin/controller/Sort.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/xueluo/Public/../application/admin/view/sort/sort_list.html [ array (
+  0 => 'admin_name',
+  1 => 'admin_uid',
+  2 => 'list',
+  3 => 'tree',
+  4 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000417s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_sort` [ RunTime:0.000612s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 0 ORDER BY `id`  asc [ RunTime:0.000339s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 2 ORDER BY `id`  asc [ RunTime:0.000283s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 3 ORDER BY `id`  asc [ RunTime:0.000289s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 5 ORDER BY `id`  asc [ RunTime:0.000348s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 8 ORDER BY `id`  asc [ RunTime:0.000531s ]
+---------------------------------------------------------------
+[ 2017-09-11T18:33:56+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/sort_add
+[ info ] www.blog.com/admin/sort_add [运行时间：0.024135s][吞吐率：41.43req/s] [内存消耗：3,529.95kb] [文件加载：46]
+[ info ] [ LANG ] /www/xueluo/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'sort',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/admin/sort_list',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'UM_distinctid=15e601d938313a-0795c015e9468f-31637e01-13c680-15e601d9384676; PHPSESSID=hsajpqtc4iv76m1i5m9bfns6r3; CNZZDATA1000014177=2008496609-1504846874-%7C1505125910',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\Controller\Sort->index[ /www/xueluo/application/admin/controller/Sort.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/xueluo/Public/../application/admin/view/sort/index.html [ array (
+  0 => 'admin_name',
+  1 => 'admin_uid',
+  2 => 'sort',
+  3 => 'tree',
+  4 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000421s ] mysql:dbname=tp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_sort` [ RunTime:0.000649s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_sort` WHERE  `pid` = 0 [ RunTime:0.000592s ]
+---------------------------------------------------------------
+[ 2017-09-11T18:34:16+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] www.blog.com/ [运行时间：0.020424s][吞吐率：48.96req/s] [内存消耗：2,347.05kb] [文件加载：38]
+[ info ] [ LANG ] /www/xueluo/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'UM_distinctid=15e601d938313a-0795c015e9468f-31637e01-13c680-15e601d9384676; PHPSESSID=hsajpqtc4iv76m1i5m9bfns6r3; CNZZDATA1000014177=2008496609-1504846874-%7C1505125910',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/xueluo/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/xueluo/Public/../application/index/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
