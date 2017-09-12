@@ -28,6 +28,7 @@ return [
 
 
 
+    '/admin/post_add/:id'          => ['/admin/post/index', ['method' => 'get'], ['id' => '\d+']],
 
     //后台系统 admin
     '/admin' => 'admin/index/admin',//后台首页
@@ -37,8 +38,8 @@ return [
     '/admin/admin_user_add' => 'admin/user/admin_user_add',//用户添加
     '/admin/admin_user_list' => 'admin/user/admin_user_list',//用户列表
     '/admin/admin_post' => 'admin/post/index',//
-    '/admin/post_add/[:id]' => 'admin/post/index',//文章／帖子添加页面
-//    '/admin/post_add/id/[:id]' => 'admin/post/index',//文章／帖子添加页面
+    '/admin/post_add' => 'admin/post/index',//文章／帖子添加页面
+    //    '/admin/post_add/id/[:id]' => 'admin/post/index',//文章／帖子添加页面
     '/admin/post_adds' => 'admin/post/upload',//文章／帖子添加页面
     '/admin/post_lists' => 'admin/post/lists',//文章／帖子列表
     '/admin/tag_add'=>'admin/tag/index',//标签添加页面

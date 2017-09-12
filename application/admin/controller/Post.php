@@ -8,7 +8,8 @@ use think\Image;
 use app\admin\model\Tag as TagModel;
 class Post extends Base
 {
-    public function index(){
+    public function index($id){
+        var_dump($id);die;
         $tags = TagModel::scope('id,name')->where('status','1')->select();
         $sort=  Db::name('sort')->where('pid','<>','0')->select();
         $this->assign('title','文章添加');
