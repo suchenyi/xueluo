@@ -54,13 +54,4 @@ class Sort extends Base{
         $this->assign('title','分类列表');
         return $this->fetch();
     }
-    //获取父级分类名称
-    public function get_pname($pid){
-        if($pid==''){
-            return '顶级分类';
-        }else{
-            $sort= Db::name('sort')->where('pid','0')->order('id','asc')->find();
-            return $sort['name'];
-        }
-    }
 }

@@ -3,7 +3,7 @@ namespace app\index\controller;
 use think\Controller;
 use think\Db;
 use app\index\model\User as UserModel;
-class Index extends Controller
+class Index extends Base
 {
 	/**
 	 * [index description]

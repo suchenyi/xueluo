@@ -13,7 +13,7 @@
 // 注册路由到index模块的News控制器的read操作
 //Route::rule('abc/:id','index/index/index');
 //Route::get('/admin/post_add/:id','admin/post/index');
-
+//Route::get('/admin/post_index/:id','/admin/post/read/',['ext'=>'html']);
 return [
     // 添加路由规则 路由到 index控制器的hello操作方法
     //用户展示（前端）
@@ -28,7 +28,7 @@ return [
 
 
 
-    '/admin/post_add/:id'          => ['/admin/post/index', ['method' => 'get'], ['id' => '\d+']],
+    'admin/post_add/:id'          => ['admin/post/index', ['method' => 'get'], ['id' => '\d+']],
 
     //后台系统 admin
     '/admin' => 'admin/index/admin',//后台首页
@@ -40,7 +40,7 @@ return [
     '/admin/admin_post' => 'admin/post/index',//
     '/admin/post_add' => 'admin/post/index',//文章／帖子添加页面
     //    '/admin/post_add/id/[:id]' => 'admin/post/index',//文章／帖子添加页面
-    '/admin/post_adds' => 'admin/post/upload',//文章／帖子添加页面
+//    '/admin/post_adds' => 'admin/post/upload',//文章／帖子添加页面
     '/admin/post_lists' => 'admin/post/lists',//文章／帖子列表
     '/admin/tag_add'=>'admin/tag/index',//标签添加页面
     '/admin/tag_list'=>'admin/tag/tag_list',//标签列表

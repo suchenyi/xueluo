@@ -8,8 +8,15 @@ use think\Image;
 use app\admin\model\Tag as TagModel;
 class Post extends Base
 {
-    public function index($id){
-        var_dump($id);die;
+    public function index($id=''){
+        if(!empty($id)) {
+            $posts = Db::name('posts')->where('id', $id)->find();
+            $posts['tags'] = json_decode($posts['tags']);
+        } else{
+            $posts=array('title'=>'','content'=>'','img'=>'','status'=>'1','sort'=>'','tags'=>'');
+        }
+            $this->assign('posts',$posts);
+
         $tags = TagModel::scope('id,name')->where('status','1')->select();
         $sort=  Db::name('sort')->where('pid','<>','0')->select();
         $this->assign('title','文章添加');
@@ -63,6 +70,9 @@ class Post extends Base
 //            // 上传失败获取错误信息
 //            echo $file->getError();
 //        }
+    }
+    public function read(){
+
     }
 }
 

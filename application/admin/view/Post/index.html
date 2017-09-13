@@ -13,13 +13,13 @@
                 <div class="box-body">
                     <div class="form-group">
                         <label>标题</label>
-                        <input type="name" class="form-control" name="title" id="name" placeholder="请输入文章标题">
+                        <input type="name" class="form-control" name="title" id="name" placeholder="请输入文章标题" value="{$posts.title}">
                     </div>
                     <div class="form-group">
                         <label >分类</label>
-                        <select name="" id="" class="form-control">
+                        <select name="sort" id="" class="form-control">
                             {volist name="sort" id="vo"}
-                            <option value="{$vo.id}">{$vo.name}</option>
+                                <option value="{$vo.id}" >{$vo.name}</option>
                             {/volist}
                         </select>
                     </div>
@@ -27,11 +27,13 @@
                         <label>主图</label>
                         <input type="file" name="image"  style="margin:6px;padding: 6px;width: 220px;font-size: 16px;border: 1px solid #D4D4D4;cursor: pointer;background:#eee;"/>
                         <!--<input type="file" name="img" id="exampleInputFile">-->
+                        <img src="{$posts.img}" alt="" style="width: 100px;">
                         <p class="help-block">上传小于2M的图片</p>
                     </div>
                     <div class="form-group">
                         <label>内容</label>
-                        <script id="editor" type="text/plain" style="width:1024px;height:500px;"></script></div>
+                        <script id="editor" type="text/plain" >{$posts.content}
+                         </script></div>
                     <div class="form-group">
                         <label>标签</label>&nbsp;&nbsp;&nbsp;&nbsp;
                         {volist name="tags" id="vo"}
@@ -40,8 +42,8 @@
                     </div>
                     <div class="form-group">
                         <label>状态</label>&nbsp;&nbsp;&nbsp;&nbsp;
-                        <input type="radio" name="status" value="1">&nbsp;&nbsp;展示&nbsp;&nbsp;&nbsp;&nbsp;
-                        <input type="radio" name="status" value="2">&nbsp;&nbsp;    不展示
+                        <input type="radio" name="status" value="1" {if condition="$posts.status eq '1'"}  checked="checked" {/if}>&nbsp;&nbsp;展示&nbsp;&nbsp;&nbsp;&nbsp;
+                        <input type="radio" name="status" value="2" {if condition="$posts.status eq '2'"} checked="checked" {/if}>&nbsp;&nbsp;    不展示
                     </div>
                 </div>
                 <div class="box-footer">
